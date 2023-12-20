@@ -21,9 +21,13 @@ Input: A set of possible shifts and the maximum number of hours the employee can
 Output: The optimal set of shifts for maximum value generation.
 Utilized Data Structures: Set<Shift>, Shift struct.
 Key Functions: lengthOf(const Shift& shift), valueOf(const Shift& shift), overlapsWith(const Shift& one, const Shift& two).
+
+
 **Problem Solving Approach**
 Recursive Techniques: Explores combinations of shifts to find the optimal schedule.
 Optimization Strategy: Focuses on generating the highest possible value within given constraints.
 Considerations: Addresses the dynamic nature of scheduling and its potential impact on employees' lives.
+
+
 **Ethical Consideration**
 The code optimizes for business value without accounting for potential employee hardships due to unpredictable schedules. This aspect underscores the importance of considering the broader implications and stakeholder perspectives in algorithm design.
